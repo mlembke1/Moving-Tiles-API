@@ -7,6 +7,6 @@ module.exports = {
   },
   production: {
       client: 'pg',
-      connection: 'postgresql-shallow-18018'
+      connection: process.env.DATABASE_URL
   }
 }
