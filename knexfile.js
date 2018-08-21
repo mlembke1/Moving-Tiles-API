@@ -1,4 +1,3 @@
-
 'use strict';
 
 module.exports = {
@@ -8,6 +7,6 @@ module.exports = {
   },
   production: {
       client: 'pg',
-      connection: process.env.DATABASE_URL
+      connection: 'postgresql-shallow-18018'
   }
 }
